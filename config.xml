@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="fr.rainetcom.padelinfinity" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Padel Infinity</name>
+    <description>
+        Réservez vos terrains, ajoutez-vous à des parties et participez aux animations
+    </description>
+    <author email="contact@rainetcom.fr" href="http://www.rainetcom.fr">
+        Team RainetCom
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="20" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarBackgroundColor" value="#ee6e73" />
+    <preference name="StatusBarStyle" value="blacktranslucent" />
+    <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.3" />
+    <platform name="ios">
+        <icon src="www/res/icon/ios/icon-1024.png" width="1024" height="1024"/>
+		<icon src="www/res/icon/ios/icon-small.png" width="29" height="29"/>
+		<icon src="www/res/icon/ios/icon-small@2x.png" width="58" height="58"/>
+		<icon src="www/res/icon/ios/icon-small@3x.png" width="87" height="87"/>
+		<icon src="www/res/icon/ios/icon-small-40.png" width="40" height="40"/>
+		<icon src="www/res/icon/ios/icon-small-40@2x.png" width="80" height="80"/>
+		<icon src="www/res/icon/ios/icon-small-40@3x.png" width="120" height="120"/>
+		<icon src="www/res/icon/ios/icon-small-50.png" width="50" height="50"/>
+		<icon src="www/res/icon/ios/icon-small-50@2x.png" width="100" height="100"/>
+		<icon src="www/res/icon/ios/icon.png" width="57" height="57"/>
+		<icon src="www/res/icon/ios/icon@2x.png" width="114" height="114"/>
+		<icon src="www/res/icon/ios/icon-60.png" width="60" height="60"/>
+		<icon src="www/res/icon/ios/icon-60@2x.png" width="120" height="120"/>
+		<icon src="www/res/icon/ios/icon-60@3x.png" width="180" height="180"/>
+		<icon src="www/res/icon/ios/icon-72.png" width="72" height="72"/>
+		<icon src="www/res/icon/ios/icon-72@2x.png" width="144" height="144"/>
+		<icon src="www/res/icon/ios/icon-76.png" width="76" height="76"/>
+		<icon src="www/res/icon/ios/icon-76@2x.png" width="152" height="152"/>
+		<icon src="www/res/icon/ios/icon-167.png" width="167" height="167"/>
+		<icon src="www/res/icon/ios/icon-83.5@2x.png" width="167" height="167"/>
+		<!-- Storyboard portrait -->
+		<splash src="www/res/screen/ios/Default@2x~iphone~anyany.png"/>
+		<splash src="www/res/screen/ios/Default@2x~iphone~comany.png"/>
+		<splash src="www/res/screen/ios/Default@3x~iphone~anyany.png"/>
+		<splash src="www/res/screen/ios/Default@3x~iphone~comany.png"/>
+		<splash src="www/res/screen/ios/Default@2x~ipad~anyany.png"/>
+		<splash src="www/res/screen/ios/Default@2x~ipad~comany.png"/>
+
+
+        <splash src="www/res/screen/ios/Default@2x~iphone~comcom.png"/>
+        <splash src="www/res/screen/ios/Default@3x~iphone~anycom.png"/>
+        
+<!-- Legacy portrait -->
+
+        <splash src="www/res/screen/ios/Default~iphone.png" width="320" height="480"/>
+        <splash src="www/res/screen/ios/Default@2x~iphone.png" width="640" height="960"/>
+        <splash src="www/res/screen/ios/Default-Portrait~ipad.png" width="768" height="1024"/>
+        <splash src="www/res/screen/ios/Default-Portrait@2x~ipad.png" width="1536" height="2048"/>
+        <splash src="www/res/screen/ios/Default-568h@2x~iphone.png" width="640" height="1136"/>
+        <splash src="www/res/screen/ios/Default-667h.png" width="750" height="1334"/>
+        <splash src="www/res/screen/ios/Default-736h.png" width="1242" height="2208"/>
+        
+<!-- Legacy landscape -->
+
+        <splash src="www/res/screen/ios/Default-Landscape~ipad.png" width="1024" height="768"/>
+        <splash src="www/res/screen/ios/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
+        
+
+    </platform>
+    <platform name="android">
+       <preference name="SplashMaintainAspectRatio" value="true"/>
+	   <preference name="SplashShowOnlyFirstTime" value="true"/>
+	   <icon density="ldpi" src="www/res/icon/android/ldpi.png"/>
+	   <icon density="mdpi" src="www/res/icon/android/mdpi.png"/>
+	   <icon density="hdpi" src="www/res/icon/android/hdpi.png"/>
+	   <icon density="xhdpi" src="www/res/icon/android/xhdpi.png"/>
+	   <icon density="xxhdpi" src="www/res/icon/android/xxhdpi.png"/>
+	   <icon density="xxxhdpi" src="www/res/icon/android/xxxhdpi.png"/>
+	   <!-- Portrait -->
+	   <splash density="port-ldpi" src="www/res/screen/android/splash-port-ldpi.png"/>
+	   <splash density="port-mdpi" src="www/res/screen/android/splash-port-mdpi.png"/>
+	   <splash density="port-hdpi" src="www/res/screen/android/splash-port-hdpi.png"/>
+	   <splash density="port-xhdpi" src="www/res/screen/android/splash-port-xhdpi.png"/>
+	   <splash density="port-xxhdpi" src="www/res/screen/android/splash-port-xxhdpi.png"/>
+	   <splash density="port-xxxhdpi" src="www/res/screen/android/splash-port-xxxhdpi.png"/>
+	   <!-- Landscape -->
+        <splash density="land-ldpi" src="www/res/screen/android/splash-land-ldpi.png"/>
+        <splash density="land-mdpi" src="www/res/screen/android/splash-land-mdpi.png"/>
+        <splash density="land-hdpi" src="www/res/screen/android/splash-land-hdpi.png"/>
+        <splash density="land-xhdpi" src="www/res/screen/android/splash-land-xhdpi.png"/>
+        <splash density="land-xxhdpi" src="www/res/screen/android/splash-land-xxhdpi.png"/>
+        <splash density="land-xxxhdpi" src="www/res/screen/android/splash-land-xxxhdpi.png"/>
+    </platform>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+		<edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+			<string>L'application aimerait accéder à la galerie pour vous permettre de modifier votre photo de profil</string>
+		</edit-config>
+		<edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+			<string>L'application aimerait accéder à la caméra pour vous permettre de modifier votre photo de profil</string>
+		</edit-config>
+		<edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+			<string>need location access to find things nearby</string>
+		</edit-config>
+		<edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
+			<string>need photo library access to save pictures there</string>
+		</edit-config>
+    </platform>
+	<engine name="ios" spec="~4.5.3" />
+    <engine name="android" spec="~6.3.0" />
+    <plugin name="cordova-plugin-dialogs" spec="~1.2.1" />
+    <plugin name="cordova-plugin-network-information" spec="^1.3.3" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^1.7.1" />
+    <plugin name="onesignal-cordova-plugin" spec="^2.4.1" />
+	<preference name="phonegap-version" value="cli-8.0.0" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.1" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <access origin="http://*" />
+    <access origin="https://*" />
+    <plugin name="cordova-plugin-splashscreen" spec="^4.0.3" />
+    <plugin name="cordova-plugin-camera" spec="^3.0.0">
+        <variable name="CAMERA_USAGE_DESCRIPTION" value="L'application aimerait accéder à la camera pour pourvoir vous permettre de modifier votre photo de profil" />
+        <variable name="PHOTOLIBRARY_USAGE_DESCRIPTION" value="L'application aimerait accéder à la galerie pour pourvoir vous permettre de modifier votre photo de profil" />
+        <variable name="NSPhotoLibraryUsageDescription" value="L'application aimerait accéder à la galerie pour vous permettre de modifier votre photo de profil" />
+        <variable name="NSCameraUsageDescription" value="L'application aimerait accéder à la camera pour pourvoir vous permettre de modifier votre photo de profil" />
+    </plugin>
+    <config-file mode="replace" parent="NSPhotoLibraryUsageDescription" platform="ios">
+        <string>L'application aimerait accéder à la galerie pour vous permettre de modifier votre photo de profil</string>
+    </config-file>
+    <config-file mode="replace" parent="NSCameraUsageDescription" platform="ios">
+        <string>L'application aimerait accéder à la caméra pour vous permettre de modifier votre photo de profil</string>
+    </config-file>
+	<gap:config-file platform="ios" parent="NSPhotoLibraryUsageDescription">
+		<string>L'application aimerait accéder à la galerie pour vous permettre de modifier votre photo de profil</string>
+	</gap:config-file>
+	<gap:config-file platform="ios" parent="NSCameraUsageDescription" overwrite="true">
+		<string>L'application aimerait accéder à la camera pour pourvoir vous permettre de modifier votre photo de profil</string>
+	</gap:config-file>
+	<edit-config target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+		<string>L'application aimerait accéder à la galerie pour vous permettre de modifier votre photo de profil</string>
+	</edit-config>
+	<edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+		<string>L'application aimerait accéder à la caméra pour vous permettre de modifier votre photo de profil</string>
+	</edit-config>
+	<edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+    <string>need location access to find things nearby</string>
+</edit-config>
+<edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
+    <string>need photo library access to save pictures there</string>
+</edit-config>
+</widget>
